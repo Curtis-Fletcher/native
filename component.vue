@@ -82,7 +82,7 @@
 
       if (this.schema.description) {
         nodes.push(createElement(
-          components.description.component, this.schema.description))
+          components.description.component, components.title.option, this.schema.description))
       }
 
       if (this.error) {
