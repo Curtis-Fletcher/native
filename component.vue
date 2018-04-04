@@ -77,12 +77,12 @@
 
       if (this.schema.title) {
         nodes.push(createElement(
-          components.title.component, this.schema.title))
+          components.title.component, components.title.option, this.schema.title))
       }
 
       if (this.schema.description) {
         nodes.push(createElement(
-          components.description.component, components.title.option, this.schema.description))
+          components.description.component, this.schema.description))
       }
 
       if (this.error) {
