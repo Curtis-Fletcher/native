@@ -363,6 +363,9 @@
        */
       clearErrorMessage () {
         this.error = null
+      },
+      debugReturnComponents () {
+        return (components)
       }
     }
   }
